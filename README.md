@@ -23,6 +23,8 @@ A cloud-native implementation of [Perlite](https://github.com/secure-77/Perlite)
 
 Perlite Cloud enables you to host your Obsidian vault as a beautiful web application on Google Cloud Platform. This implementation leverages Cloud Run's serverless architecture to provide a cost-effective, auto-scaling solution that scales to zero when not in use.
 
+![Website Diagram](Depolyed_website.png)
+
 ### Original Perlite
 This project is based on the excellent work of [secure-77/Perlite](https://github.com/secure-77/Perlite), a web-based markdown viewer optimized for Obsidian notes.
 
