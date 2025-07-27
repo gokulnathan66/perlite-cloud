@@ -65,3 +65,4 @@ build/
 # Google Cloud
 gcloud-config/
 .gcloud/
+perlite-web/service-account-key.json
