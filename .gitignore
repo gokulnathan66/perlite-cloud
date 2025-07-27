@@ -1,0 +1,67 @@
+# Sensitive files
+*.json
+!composer.json
+!composer.lock
+service-account*.json
+*-key.json
+vault-sync*.json
+
+# Personal data and vault contents
+obsidian-git-gcloud-automate/vault/
+/vault/
+**/vault/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.staging
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+vendor/
+
+# PHP
+composer.phar
+/vendor/
+
+# Temporary files
+tmp/
+temp/
+
+# Build outputs
+dist/
+build/
+
+# Docker
+.dockerignore
+
+# Google Cloud
+gcloud-config/
+.gcloud/
