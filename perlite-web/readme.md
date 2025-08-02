@@ -10,3 +10,5 @@ docker run -d \
   -e SITE_TITLE="My Vault" \
   -e SITE_NAME="Perlite" \
   perlite-server
+
+the app sync with gcs bucket tge been attached by tge entrypiint.sh service 
